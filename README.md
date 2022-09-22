@@ -20,7 +20,7 @@ When npm runs vitest, all the tests are failing as seen at the end of its output
 
 Since we have 4 files, vitest sees 4 test suites. Within these 4 suites, we have a total of 27 coding skill assignments, each with a test. The comments in the files will explain what each coding skill assignment must accomplish.
 
-Fixing the code will make the tests pass and show in green in the console. Here is the vitest output when all the tests pass.
+Fixing the code will make the tests pass and show in green in the console. Here is the vitest output when all the tests pass. Yes
 
 
 <img width="600" alt="all tests pass" src="https://user-images.githubusercontent.com/13385801/189547353-39dcd4d1-20d3-4b31-9bee-e7b044cfc092.png">
