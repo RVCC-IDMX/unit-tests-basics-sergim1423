@@ -273,7 +273,7 @@ test('creating a message', () => {
 // * Add your code BELOW here
 let tax = 8.25
 let price = 100
-let total = `Your total including tax is \\$${tax + price}$//`
+let total = `Your total including tax is \\$${tax + price}`
 
 // * Don't mess with the test code below here!
 
