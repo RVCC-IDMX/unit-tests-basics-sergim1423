@@ -150,7 +150,7 @@ test('bloop', () => {
 
 TODO: This skill requires 1 line of code.
 TODO: Use the let keyword to declare a variable called notSeptember and assign it to
-TODO: the boolean value of !isSeptember.
+TODO: the boolean value of !isSeptember .
 */
 
 // * Add your code BELOW here
