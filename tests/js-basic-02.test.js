@@ -263,7 +263,7 @@ test('creating a message', () => {
 // TODO: add a variable called tax and set it to 8.25
 // TODO: add a variable called price and set it to 100
 // TODO: create a variable called total and set it to the template literal
-// TODO: such that you get the string - 'Your total including tax is $108.25'
+// TODO: such that you get the string  - 'Your total including tax is $108.25'
 // TODO: You must use the template literal syntax
 
 // NOTE: Inside the ${} syntax you can do the math you need to do
