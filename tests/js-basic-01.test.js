@@ -182,7 +182,7 @@ test('sillyMath', () => {
 ? value to it.
 ? If you try to use a undefined variable and concatenate it
 ? to a string, it does not generate an error.
-? It will concatenate the string literal 'undefined'.
+? It will concatenate the string literal 'undefined '.
 
 TODO: This skill requires 2 lines of code.
 TODO: You already have an undefined variable called oops; leave it undefined.
