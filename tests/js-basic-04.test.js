@@ -79,7 +79,7 @@ TODO: Using the Math object, assign a random number to a variable called rnd.
 */
 
 // * Add your code BELOW here
-Math.random(rnd)
+let rnd = Math.random()
 // * Don't mess with the test code below here!
 
 test('rnd', () => {
@@ -112,7 +112,7 @@ TODO: Make sure to round down the value to the nearest integer.
 vi.spyOn(global.Math, 'random').mockReturnValue(0.9);
 
 // * Add your code BELOW here
-Math.floor(Math.random(randomInt) * 6)
+let randomInt = Math.floor(Math.random() * 5)
 // * Don't mess with the test code below here!
 
 vi.spyOn(global.Math, 'random').mockRestore();
@@ -141,7 +141,7 @@ TODO: assign the result to a variable called numRounded
 
 // * Add your code BELOW here
 const num = 17.89
-numRounded = Math.floor(num)
+let numRounded = Math.floor(num)
 // * Don't mess with the test code below here!
 
 test('numRounded', () => {
@@ -174,11 +174,11 @@ TODO: In line 6: Using the Math object, round rounding3 to the nearest integer
 
 // * Add your code BELOW here
 let rounding1 = 5.95
-Math.ceil(rounding1)
+Math.round(rounding1)
 let rounding2 = 5.5
-Math.ceil(rounding2)
+Math.round(rounding2)
 let rounding3 = 5.05
-Math.floor(rounding3)
+Math.ceil(rounding3)
 // * Don't mess with the test code below here!
 
 test('rounding', () => {
@@ -287,7 +287,7 @@ TODO: using the unary + operator
 */
 
 // * Add your code BELOW here
-let sliceOfPi = unary + myPiFixed
+let sliceOfPi = + myPiFixed
 // * Don't mess with the test code below here!
 
 test('sliceOfPi', () => {
